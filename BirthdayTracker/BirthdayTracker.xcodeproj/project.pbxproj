@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		50E844A120D8453A0043F4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E844A020D8453A0043F4E3 /* AppDelegate.swift */; };
-		50E844A320D8453A0043F4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E844A220D8453A0043F4E3 /* ViewController.swift */; };
+		50E844A320D8453A0043F4E3 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E844A220D8453A0043F4E3 /* AddBirthdayViewController.swift */; };
 		50E844A620D8453A0043F4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E844A420D8453A0043F4E3 /* Main.storyboard */; };
 		50E844A920D8453A0043F4E3 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50E844A720D8453A0043F4E3 /* BirthdayTracker.xcdatamodeld */; };
 		50E844AB20D8453D0043F4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E844AA20D8453D0043F4E3 /* Assets.xcassets */; };
 		50E844AE20D8453D0043F4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E844AC20D8453D0043F4E3 /* LaunchScreen.storyboard */; };
+		50F2FE6C20E2C7BE002C4E85 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F2FE6B20E2C7BE002C4E85 /* Birthday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50E8449D20D8453A0043F4E3 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E844A020D8453A0043F4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50E844A220D8453A0043F4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E844A220D8453A0043F4E3 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		50E844A520D8453A0043F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50E844A820D8453A0043F4E3 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		50E844AA20D8453D0043F4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50E844AD20D8453D0043F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E844AF20D8453D0043F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F2FE6B20E2C7BE002C4E85 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				50E844A020D8453A0043F4E3 /* AppDelegate.swift */,
-				50E844A220D8453A0043F4E3 /* ViewController.swift */,
+				50E844A220D8453A0043F4E3 /* AddBirthdayViewController.swift */,
 				50E844A420D8453A0043F4E3 /* Main.storyboard */,
 				50E844AA20D8453D0043F4E3 /* Assets.xcassets */,
 				50E844AC20D8453D0043F4E3 /* LaunchScreen.storyboard */,
 				50E844AF20D8453D0043F4E3 /* Info.plist */,
 				50E844A720D8453A0043F4E3 /* BirthdayTracker.xcdatamodeld */,
+				50F2FE6B20E2C7BE002C4E85 /* Birthday.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E844A320D8453A0043F4E3 /* ViewController.swift in Sources */,
+				50F2FE6C20E2C7BE002C4E85 /* Birthday.swift in Sources */,
+				50E844A320D8453A0043F4E3 /* AddBirthdayViewController.swift in Sources */,
 				50E844A920D8453A0043F4E3 /* BirthdayTracker.xcdatamodeld in Sources */,
 				50E844A120D8453A0043F4E3 /* AppDelegate.swift in Sources */,
 			);
