@@ -14,6 +14,7 @@
 		50E844AB20D8453D0043F4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E844AA20D8453D0043F4E3 /* Assets.xcassets */; };
 		50E844AE20D8453D0043F4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E844AC20D8453D0043F4E3 /* LaunchScreen.storyboard */; };
 		50F2FE6C20E2C7BE002C4E85 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F2FE6B20E2C7BE002C4E85 /* Birthday.swift */; };
+		50F2FE6E20E44356002C4E85 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F2FE6D20E44356002C4E85 /* BirthdaysTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		50E844AD20D8453D0043F4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E844AF20D8453D0043F4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50F2FE6B20E2C7BE002C4E85 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		50F2FE6D20E44356002C4E85 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				50E844AF20D8453D0043F4E3 /* Info.plist */,
 				50E844A720D8453A0043F4E3 /* BirthdayTracker.xcdatamodeld */,
 				50F2FE6B20E2C7BE002C4E85 /* Birthday.swift */,
+				50F2FE6D20E44356002C4E85 /* BirthdaysTableViewController.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F2FE6E20E44356002C4E85 /* BirthdaysTableViewController.swift in Sources */,
 				50F2FE6C20E2C7BE002C4E85 /* Birthday.swift in Sources */,
 				50E844A320D8453A0043F4E3 /* AddBirthdayViewController.swift in Sources */,
 				50E844A920D8453A0043F4E3 /* BirthdayTracker.xcdatamodeld in Sources */,
